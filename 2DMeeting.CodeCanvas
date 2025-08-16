@@ -1,0 +1,1639 @@
+{
+	"drawioXML": "<mxfile>\n  <diagram id=\"MZiDU-wH4cZUoywp9obl\" name=\"Page-1\">\n    <mxGraphModel dx=\"5112\" dy=\"2997\" grid=\"0\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"0\" arrows=\"1\" fold=\"1\" page=\"0\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\">\n      <root>\n        <mxCell id=\"0\" />\n        <mxCell id=\"1\" style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=9;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"0\" />\n        <UserObject label=\"client\" value=\"client\" id=\"86c8b80f-2e05-4850-a7ae-5cc482b1b94a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=46;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"155\" y=\"170\" width=\"2520\" height=\"1538.2459844781138\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"src\" value=\"src\" id=\"747b6460-10a1-48cb-8c3d-91eb23d4c9d8\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=46;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"86c8b80f-2e05-4850-a7ae-5cc482b1b94a\" vertex=\"1\">\n            <mxGeometry x=\"95\" y=\"70\" width=\"2250\" height=\"1398.2459844781138\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"routes\" value=\"routes\" id=\"dfee4bfa-5c58-4a56-8c88-cdcf80776dea\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=37;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f4e9e9\" parent=\"747b6460-10a1-48cb-8c3d-91eb23d4c9d8\" vertex=\"1\">\n            <mxGeometry x=\"175\" y=\"120\" width=\"1390\" height=\"1208.2459844781138\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Room.js\" value=\"Room.js\" id=\"63df3399-6dec-4a79-9180-1feeae987272\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=34;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#efdfdf\" parent=\"dfee4bfa-5c58-4a56-8c88-cdcf80776dea\" vertex=\"1\">\n            <mxGeometry x=\"175\" y=\"340.00000000000006\" width=\"1040\" height=\"798.2459844781139\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Initialize Media Stream and Connect - Room.js:L142-146\" value=\"Initialize Media Stream and Connect - Room.js:L142-146\" id=\"a941afe4-5106-45a9-8323-0e45e45a3a13\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"790\" y=\"350.05801191081946\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Client: Initiate Peer Connection (Offer) - Room.js:L232-240\" value=\"Client: Initiate Peer Connection (Offer) - Room.js:L232-240\" id=\"870e7490-0774-4af4-aa78-7b07be3c9641\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"378.2459844781139\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Existing Client: Create Peer Connection (Answer) - Room.js:L256-264\" value=\"Existing Client: Create Peer Connection (Answer) - Room.js:L256-264\" id=\"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"508.24598447811394\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Connection Established and Stream Received - Room.js:L110-112\" value=\"Connection Established and Stream Received - Room.js:L110-112\" id=\"6fc92595-4114-41d1-9ca8-46f1c4f36fb8\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"638.245984478114\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Client Receives Room Data and Establishes Peer Connections - Room.js:L146-170\" value=\"Client Receives Room Data and Establishes Peer Connections - Room.js:L146-170\" id=\"99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"70.00000000000001\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Generate Initial Coordinates - Room.js:L46-52\" value=\"Generate Initial Coordinates - Room.js:L46-52\" id=\"bdbdb355-20bc-472e-91b9-e0a2bf62f1cb\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"790\" y=\"220.05801191081946\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Client Processes Welcome Package - Room.js:L150-156\" value=\"Client Processes Welcome Package - Room.js:L150-156\" id=\"bedcf977-144c-4be7-94e5-4d8fb6466ac9\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"200.16485496358544\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Render User&#39;s Own Video Avatar - Room.js:L94-105\" value=\"Render User&#39;s Own Video Avatar - Room.js:L94-105\" id=\"d6de0b12-765c-41fb-9e8e-a136b0f4eae6\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"470\" y=\"200.16485496358544\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Apply Positional Styles via CSS - Room.js:L34-43\" value=\"Apply Positional Styles via CSS - Room.js:L34-43\" id=\"462e9ac4-3f28-4ad5-858a-e89a501192b5\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" vertex=\"1\">\n            <mxGeometry x=\"790\" y=\"90.05801191081947\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"cb3747a8-2d7f-400b-aaac-e4f811798720\" value=\"React Props:&#xa;Pass Coordinates&#xa;to Component\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" source=\"bedcf977-144c-4be7-94e5-4d8fb6466ac9\" target=\"d6de0b12-765c-41fb-9e8e-a136b0f4eae6\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"801baea4-0a0e-47e4-8f94-9f7e8a14475e\" value=\"React Props:&#xa;Pass Coordinates&#xa;to Styled&#xa;Component\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=12;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"63df3399-6dec-4a79-9180-1feeae987272\" source=\"d6de0b12-765c-41fb-9e8e-a136b0f4eae6\" target=\"462e9ac4-3f28-4ad5-858a-e89a501192b5\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"690\" y=\"245.16485496358544\" />\n              <mxPoint x=\"690\" y=\"135.05801191081946\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"CreateRoom.js\" value=\"CreateRoom.js\" id=\"fe38e07b-ff4e-4f9b-8037-5d9d9025390f\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=22;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#efdfdf\" parent=\"dfee4bfa-5c58-4a56-8c88-cdcf80776dea\" vertex=\"1\">\n            <mxGeometry x=\"535\" y=\"70.00000000000003\" width=\"320\" height=\"230\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Room ID Generation and Redirect - CreateRoom.js:L7-8\" value=\"Room ID Generation and Redirect - CreateRoom.js:L7-8\" id=\"352fee40-5a3c-4e1c-a52d-ed0ff51d0626\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"fe38e07b-ff4e-4f9b-8037-5d9d9025390f\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"App.js\" value=\"App.js\" id=\"a42a4950-7b26-439a-ae31-19ca3cde26f1\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=22;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f4e9e9\" parent=\"747b6460-10a1-48cb-8c3d-91eb23d4c9d8\" vertex=\"1\">\n            <mxGeometry x=\"1755\" y=\"120.33275743806092\" width=\"320\" height=\"360.00000000000006\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Initial App Routing - App.js:L11\" value=\"Initial App Routing - App.js:L11\" id=\"2394b4b1-b71b-403f-99d7-ac65a22e4688\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"a42a4950-7b26-439a-ae31-19ca3cde26f1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Route to Room Component - App.js:L12\" value=\"Route to Room Component - App.js:L12\" id=\"e191f531-f18a-46ff-9799-f98642d9c782\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"a42a4950-7b26-439a-ae31-19ca3cde26f1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200.00000000000003\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"f0dc4545-e33f-4a3e-8ca0-67352f617890\" value=\"Component Render&#xa;Request\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"747b6460-10a1-48cb-8c3d-91eb23d4c9d8\" source=\"2394b4b1-b71b-403f-99d7-ac65a22e4688\" target=\"352fee40-5a3c-4e1c-a52d-ed0ff51d0626\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"2140\" y=\"235.33275743806092\" />\n              <mxPoint x=\"2140\" y=\"70\" />\n              <mxPoint x=\"110\" y=\"70\" />\n              <mxPoint x=\"110\" y=\"305.3747569139262\" />\n              <mxPoint x=\"285\" y=\"305.3747569139262\" />\n              <mxPoint x=\"285\" y=\"305.00000000000006\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"148d5ccc-67e3-4c14-8a8a-6fb51c780720\" value=\"URL Navigation\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"747b6460-10a1-48cb-8c3d-91eb23d4c9d8\" source=\"352fee40-5a3c-4e1c-a52d-ed0ff51d0626\" target=\"e191f531-f18a-46ff-9799-f98642d9c782\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1455\" y=\"305.00000000000006\" />\n              <mxPoint x=\"1455\" y=\"305.3862739723769\" />\n              <mxPoint x=\"1630\" y=\"305.3862739723769\" />\n              <mxPoint x=\"1630\" y=\"365.33275743806104\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"server.js\" value=\"server.js\" id=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=28;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"2865\" y=\"581.359732209648\" width=\"720\" height=\"750.0000000000001\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Server: Process New User - server.js:L14-32\" value=\"Server: Process New User - server.js:L14-32\" id=\"7745f121-ae62-449d-bf29-d4dd124a4121\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"330.0000000000001\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Server: Forward Offer Signal - server.js:L36-42\" value=\"Server: Forward Offer Signal - server.js:L36-42\" id=\"5a164063-9a04-4b6c-a167-c3c7fee08dbe\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"460.0000000000001\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Server: Forward Answer Signal - server.js:L44-52\" value=\"Server: Forward Answer Signal - server.js:L44-52\" id=\"061a7300-c308-4bc9-b441-9a9f0cf087f7\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"590.0000000000001\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Server Processes &#39;join-room&#39; - server.js:L13-16\" value=\"Server Processes &#39;join-room&#39; - server.js:L13-16\" id=\"90d39d75-3f34-40cd-b170-d89dcf02d35a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"69.99999999999999\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Server Updates Room State - server.js:L20-26\" value=\"Server Updates Room State - server.js:L20-26\" id=\"0f17f173-f7ae-4554-8309-760c9dc04d62\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"470\" y=\"87.78629825222193\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"20834ce6-c84e-4a67-a480-df7376fac895\" value=\"Server Responds&#xa;with &#39;your-welcome-package&#39;\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" source=\"90d39d75-3f34-40cd-b170-d89dcf02d35a\" target=\"0f17f173-f7ae-4554-8309-760c9dc04d62\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"370\" y=\"114.99999999999999\" />\n              <mxPoint x=\"370\" y=\"132.7862982522219\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"Server Receives &#39;join-room&#39; Event - server.js:L14-18\" value=\"Server Receives &#39;join-room&#39; Event - server.js:L14-18\" id=\"49394469-e8d8-4c7a-934a-3f7eaff2f2e8\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"c31af4f6-ab55-42b7-bdf4-c3bae3240f04\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"9f1f191e-5112-4fef-aa14-eb7666917009\" value=\"API Call:&#xa;Announce Joining\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"a941afe4-5106-45a9-8323-0e45e45a3a13\" target=\"7745f121-ae62-449d-bf29-d4dd124a4121\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1890\" y=\"1095.0580119108195\" />\n              <mxPoint x=\"1890\" y=\"943.1961864210832\" />\n              <mxPoint x=\"2740\" y=\"943.1961864210832\" />\n              <mxPoint x=\"2740\" y=\"956.3597322096481\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"16e5b6d0-d1a2-450b-9138-4d5d1767f1db\" value=\"API Call:&#xa;Send List&#xa;of Existing&#xa;Users\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"7745f121-ae62-449d-bf29-d4dd124a4121\" target=\"870e7490-0774-4af4-aa78-7b07be3c9641\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"3235\" y=\"956.3597322096481\" />\n              <mxPoint x=\"3235\" y=\"956.6003940360831\" />\n              <mxPoint x=\"3670\" y=\"956.6003940360831\" />\n              <mxPoint x=\"3670\" y=\"1858.2459844781138\" />\n              <mxPoint x=\"70\" y=\"1858.2459844781138\" />\n              <mxPoint x=\"70\" y=\"1123.245984478114\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"44136345-e072-4ba6-9c4d-fe2007f7887c\" value=\"API Call:&#xa;Send Offer&#xa;Signal\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"870e7490-0774-4af4-aa78-7b07be3c9641\" target=\"5a164063-9a04-4b6c-a167-c3c7fee08dbe\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"970\" y=\"1123.245984478114\" />\n              <mxPoint x=\"970\" y=\"1190.0580119108195\" />\n              <mxPoint x=\"1900\" y=\"1190.0580119108195\" />\n              <mxPoint x=\"1900\" y=\"1029.439734109624\" />\n              <mxPoint x=\"2390\" y=\"1029.439734109624\" />\n              <mxPoint x=\"2390\" y=\"975.7501247072379\" />\n              <mxPoint x=\"2750\" y=\"975.7501247072378\" />\n              <mxPoint x=\"2750\" y=\"1086.359732209648\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"52f3fe2d-0e97-42ad-8d48-d687cdddb98f\" value=\"API Call:&#xa;Notify Existing&#xa;User of&#xa;New Peer\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"5a164063-9a04-4b6c-a167-c3c7fee08dbe\" target=\"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"3235\" y=\"1086.3597322096482\" />\n              <mxPoint x=\"3235\" y=\"1076.3905813301535\" />\n              <mxPoint x=\"3660\" y=\"1076.3905813301535\" />\n              <mxPoint x=\"3660\" y=\"1808.2459844781138\" />\n              <mxPoint x=\"80\" y=\"1808.2459844781138\" />\n              <mxPoint x=\"80\" y=\"1253.245984478114\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"96504682-c233-4542-8d67-5414f7028833\" value=\"API Call:&#xa;Send Answer&#xa;Signal\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d\" target=\"061a7300-c308-4bc9-b441-9a9f0cf087f7\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"970\" y=\"1253.245984478114\" />\n              <mxPoint x=\"970\" y=\"1245.51405090606\" />\n              <mxPoint x=\"1910\" y=\"1245.5140509060602\" />\n              <mxPoint x=\"1910\" y=\"1083.1052911449888\" />\n              <mxPoint x=\"2740\" y=\"1083.1052911449885\" />\n              <mxPoint x=\"2740\" y=\"1216.359732209648\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"b927dbe5-5ce3-4fe3-85c3-378d4e00d73e\" value=\"API Call:&#xa;Deliver Final&#xa;Signal\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"061a7300-c308-4bc9-b441-9a9f0cf087f7\" target=\"6fc92595-4114-41d1-9ca8-46f1c4f36fb8\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"3235\" y=\"1216.3597322096482\" />\n              <mxPoint x=\"3235\" y=\"1196.1807686242237\" />\n              <mxPoint x=\"3650\" y=\"1196.1807686242234\" />\n              <mxPoint x=\"3650\" y=\"1758.2459844781138\" />\n              <mxPoint x=\"90\" y=\"1758.2459844781138\" />\n              <mxPoint x=\"90\" y=\"1383.2459844781142\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"fed3d2f8-b972-48b5-b684-40673ed85d89\" value=\"Client Emits&#xa;&#39;join-room&#39;\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"e191f531-f18a-46ff-9799-f98642d9c782\" target=\"90d39d75-3f34-40cd-b170-d89dcf02d35a\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"2565\" y=\"605.332757438061\" />\n              <mxPoint x=\"2565\" y=\"606.2072956166058\" />\n              <mxPoint x=\"2740\" y=\"606.207295616606\" />\n              <mxPoint x=\"2740\" y=\"696.5032022182854\" />\n              <mxPoint x=\"2975\" y=\"696.5032022182853\" />\n              <mxPoint x=\"2975\" y=\"696.3597322096479\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"ea819186-991f-49e1-9161-73511cb492e4\" value=\"Server Sends&#xa;List of&#xa;Existing Users\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"0f17f173-f7ae-4554-8309-760c9dc04d62\" target=\"99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"3650\" y=\"714.1460304618699\" />\n              <mxPoint x=\"3650\" y=\"120\" />\n              <mxPoint x=\"90\" y=\"120\" />\n              <mxPoint x=\"90\" y=\"821.7904309324476\" />\n              <mxPoint x=\"710\" y=\"821.7904309324476\" />\n              <mxPoint x=\"710\" y=\"814.9999999999999\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"6867a760-d29d-467d-90c6-02c2677faecc\" value=\"Client -&gt;&#xa;Server: Emit&#xa;&#39;join-room&#39; Event\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"bdbdb355-20bc-472e-91b9-e0a2bf62f1cb\" target=\"49394469-e8d8-4c7a-934a-3f7eaff2f2e8\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1880\" y=\"965.0580119108196\" />\n              <mxPoint x=\"1880\" y=\"826.359732209648\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"f576a341-6aa5-49e7-a6a7-6557e3a04175\" value=\"Server -&gt;&#xa;Client: Emit&#xa;&#39;your-welcome-package&#39; Event\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"49394469-e8d8-4c7a-934a-3f7eaff2f2e8\" target=\"bedcf977-144c-4be7-94e5-4d8fb6466ac9\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"3235\" y=\"826.359732209648\" />\n              <mxPoint x=\"3235\" y=\"836.810206742013\" />\n              <mxPoint x=\"3660\" y=\"836.810206742013\" />\n              <mxPoint x=\"3660\" y=\"70\" />\n              <mxPoint x=\"70\" y=\"70\" />\n              <mxPoint x=\"70\" y=\"945.1648549635854\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n",
+	"fileName": "",
+	"fileURL": "github",
+	"repoData": {
+		"client": {
+			"path": "client",
+			"fileName": "client",
+			"cellName": "client",
+			"cellId": "86c8b80f-2e05-4850-a7ae-5cc482b1b94a",
+			"visible": true,
+			"children": [
+				"client/src"
+			]
+		},
+		"client/src": {
+			"path": "client/src",
+			"fileName": "src",
+			"cellName": "src",
+			"cellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8",
+			"visible": true,
+			"parentCellId": "86c8b80f-2e05-4850-a7ae-5cc482b1b94a",
+			"children": [
+				"client/src/routes",
+				"client/src/App.js"
+			]
+		},
+		"client/src/App.js": {
+			"path": "client/src/App.js",
+			"fileName": "App.js",
+			"cellName": "App.js",
+			"cellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8",
+			"children": [
+				"client/src/App.js-simstep-f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5",
+				"client/src/App.js-simstep-8ca2bf60-8053-4809-8171-600aa7226d13"
+			]
+		},
+		"client/src/routes": {
+			"path": "client/src/routes",
+			"fileName": "routes",
+			"cellName": "routes",
+			"cellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8",
+			"children": [
+				"client/src/routes/Room.js",
+				"client/src/routes/CreateRoom.js"
+			]
+		},
+		"client/src/routes/CreateRoom.js": {
+			"path": "client/src/routes/CreateRoom.js",
+			"fileName": "CreateRoom.js",
+			"cellName": "CreateRoom.js",
+			"cellId": "fe38e07b-ff4e-4f9b-8037-5d9d9025390f",
+			"visible": true,
+			"parentCellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea",
+			"children": [
+				"client/src/routes/CreateRoom.js-simstep-11701434-7a08-4302-8fc1-872d0756d7ba"
+			]
+		},
+		"client/src/routes/Room.js": {
+			"path": "client/src/routes/Room.js",
+			"fileName": "Room.js",
+			"cellName": "Room.js",
+			"cellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"visible": true,
+			"parentCellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea",
+			"children": [
+				"client/src/routes/Room.js-simstep-9ee9c928-c7b9-4de6-9189-696ca7099fbd",
+				"client/src/routes/Room.js-simstep-6e74a24e-6ffc-4a2d-8687-881bd41fdbf0",
+				"client/src/routes/Room.js-simstep-d29d070f-f816-4fbf-97eb-901ba2dc7708",
+				"client/src/routes/Room.js-simstep-2546a6cb-ecd4-4a63-9439-4b1c8f6a586d",
+				"client/src/routes/Room.js-simstep-bb112e0d-3269-4f7b-b7eb-3cccc94856d8",
+				"client/src/routes/Room.js-simstep-27bcdb0a-eef4-47ed-97fb-0f8ef7219efd",
+				"client/src/routes/Room.js-simstep-8557a1c4-29db-4fc4-8f87-d0f8d375c892",
+				"client/src/routes/Room.js-simstep-b3d4474a-5e9c-4eb4-ab1b-920c69158c01",
+				"client/src/routes/Room.js-simstep-2af15707-a112-4950-9b72-6a37eb472a6c"
+			]
+		},
+		"server.js": {
+			"path": "server.js",
+			"fileName": "server.js",
+			"cellName": "server.js",
+			"cellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"visible": true,
+			"children": [
+				"server.js-simstep-4a7b13f0-6ebf-41b8-ae9a-b4753fa319af",
+				"server.js-simstep-18f0b8d1-9c06-4fbd-98c9-28c8a31702df",
+				"server.js-simstep-21c89ef8-13dd-461f-bfed-3fb961c64e5c",
+				"server.js-simstep-b78f3135-3988-4728-9dac-8a2d7df45862",
+				"server.js-simstep-272e24a0-6a26-4583-86ce-a1670fddbac6",
+				"server.js-simstep-3c61b93d-7b6b-40e4-9844-b10642cec363"
+			]
+		},
+		"86c8b80f-2e05-4850-a7ae-5cc482b1b94a": {
+			"path": "86c8b80f-2e05-4850-a7ae-5cc482b1b94a",
+			"cellName": "client",
+			"cellId": "86c8b80f-2e05-4850-a7ae-5cc482b1b94a",
+			"visible": true
+		},
+		"c31af4f6-ab55-42b7-bdf4-c3bae3240f04": {
+			"path": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"cellName": "server.js",
+			"cellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"visible": true
+		},
+		"747b6460-10a1-48cb-8c3d-91eb23d4c9d8": {
+			"path": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8",
+			"cellName": "src",
+			"cellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8",
+			"visible": true,
+			"parentCellId": "86c8b80f-2e05-4850-a7ae-5cc482b1b94a"
+		},
+		"dfee4bfa-5c58-4a56-8c88-cdcf80776dea": {
+			"path": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea",
+			"cellName": "routes",
+			"cellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8"
+		},
+		"63df3399-6dec-4a79-9180-1feeae987272": {
+			"path": "63df3399-6dec-4a79-9180-1feeae987272",
+			"cellName": "Room.js",
+			"cellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"visible": true,
+			"parentCellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea"
+		},
+		"a941afe4-5106-45a9-8323-0e45e45a3a13": {
+			"path": "a941afe4-5106-45a9-8323-0e45e45a3a13",
+			"cellName": "Initialize Media Stream and Connect - Room.js:L142-146",
+			"cellId": "a941afe4-5106-45a9-8323-0e45e45a3a13",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-9ee9c928-c7b9-4de6-9189-696ca7099fbd": {
+			"path": "client/src/routes/Room.js-simstep-9ee9c928-c7b9-4de6-9189-696ca7099fbd",
+			"fileName": "Room.js",
+			"wiki": "When the Room component mounts, the client attempts to connect to the Socket.IO server. It then requests access to the user's camera and microphone using `navigator.mediaDevices.getUserMedia`.",
+			"cellName": "Initialize Media Stream and Connect - Room.js:L142-146",
+			"cellId": "a941afe4-5106-45a9-8323-0e45e45a3a13",
+			"visible": true,
+			"startLine": 142,
+			"endLine": 146,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"7745f121-ae62-449d-bf29-d4dd124a4121": {
+			"path": "7745f121-ae62-449d-bf29-d4dd124a4121",
+			"cellName": "Server: Process New User - server.js:L14-32",
+			"cellId": "7745f121-ae62-449d-bf29-d4dd124a4121",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-4a7b13f0-6ebf-41b8-ae9a-b4753fa319af": {
+			"path": "server.js-simstep-4a7b13f0-6ebf-41b8-ae9a-b4753fa319af",
+			"fileName": "server.js",
+			"wiki": "The server's `join-room` listener fires. It registers the new user's socket, adds them to the list of users for that room, and prepares a list of users who are already present.",
+			"cellName": "Server: Process New User - server.js:L14-32",
+			"cellId": "7745f121-ae62-449d-bf29-d4dd124a4121",
+			"visible": true,
+			"startLine": 14,
+			"endLine": 32,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"870e7490-0774-4af4-aa78-7b07be3c9641": {
+			"path": "870e7490-0774-4af4-aa78-7b07be3c9641",
+			"cellName": "Client: Initiate Peer Connection (Offer) - Room.js:L232-240",
+			"cellId": "870e7490-0774-4af4-aa78-7b07be3c9641",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-6e74a24e-6ffc-4a2d-8687-881bd41fdbf0": {
+			"path": "client/src/routes/Room.js-simstep-6e74a24e-6ffc-4a2d-8687-881bd41fdbf0",
+			"fileName": "Room.js",
+			"wiki": "The new client receives the list of existing users. It then creates a new `Peer` object for each one with `initiator: true`. This automatically generates a WebRTC offer signal needed to start a peer connection.",
+			"cellName": "Client: Initiate Peer Connection (Offer) - Room.js:L232-240",
+			"cellId": "870e7490-0774-4af4-aa78-7b07be3c9641",
+			"visible": true,
+			"startLine": 232,
+			"endLine": 240,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"5a164063-9a04-4b6c-a167-c3c7fee08dbe": {
+			"path": "5a164063-9a04-4b6c-a167-c3c7fee08dbe",
+			"cellName": "Server: Forward Offer Signal - server.js:L36-42",
+			"cellId": "5a164063-9a04-4b6c-a167-c3c7fee08dbe",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-18f0b8d1-9c06-4fbd-98c9-28c8a31702df": {
+			"path": "server.js-simstep-18f0b8d1-9c06-4fbd-98c9-28c8a31702df",
+			"fileName": "server.js",
+			"wiki": "The server receives the `stream-to-existing-users` event. It acts as a signaling server, forwarding the offer signal to the specified existing user via a `user-joined` event.",
+			"cellName": "Server: Forward Offer Signal - server.js:L36-42",
+			"cellId": "5a164063-9a04-4b6c-a167-c3c7fee08dbe",
+			"visible": true,
+			"startLine": 36,
+			"endLine": 42,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d": {
+			"path": "16dc9fc6-1650-4b51-aec4-ef48eb5cc01d",
+			"cellName": "Existing Client: Create Peer Connection (Answer) - Room.js:L256-264",
+			"cellId": "16dc9fc6-1650-4b51-aec4-ef48eb5cc01d",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-d29d070f-f816-4fbf-97eb-901ba2dc7708": {
+			"path": "client/src/routes/Room.js-simstep-d29d070f-f816-4fbf-97eb-901ba2dc7708",
+			"fileName": "Room.js",
+			"wiki": "The existing user's client receives the `user-joined` event. It creates a new `Peer` object with `initiator: false`, processes the offer, and generates a WebRTC answer signal to send back.",
+			"cellName": "Existing Client: Create Peer Connection (Answer) - Room.js:L256-264",
+			"cellId": "16dc9fc6-1650-4b51-aec4-ef48eb5cc01d",
+			"visible": true,
+			"startLine": 256,
+			"endLine": 264,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"061a7300-c308-4bc9-b441-9a9f0cf087f7": {
+			"path": "061a7300-c308-4bc9-b441-9a9f0cf087f7",
+			"cellName": "Server: Forward Answer Signal - server.js:L44-52",
+			"cellId": "061a7300-c308-4bc9-b441-9a9f0cf087f7",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-21c89ef8-13dd-461f-bfed-3fb961c64e5c": {
+			"path": "server.js-simstep-21c89ef8-13dd-461f-bfed-3fb961c64e5c",
+			"fileName": "server.js",
+			"wiki": "The server receives the answer signal and forwards it to the new user who initiated the connection.",
+			"cellName": "Server: Forward Answer Signal - server.js:L44-52",
+			"cellId": "061a7300-c308-4bc9-b441-9a9f0cf087f7",
+			"visible": true,
+			"startLine": 44,
+			"endLine": 52,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"6fc92595-4114-41d1-9ca8-46f1c4f36fb8": {
+			"path": "6fc92595-4114-41d1-9ca8-46f1c4f36fb8",
+			"cellName": "Connection Established and Stream Received - Room.js:L110-112",
+			"cellId": "6fc92595-4114-41d1-9ca8-46f1c4f36fb8",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-2546a6cb-ecd4-4a63-9439-4b1c8f6a586d": {
+			"path": "client/src/routes/Room.js-simstep-2546a6cb-ecd4-4a63-9439-4b1c8f6a586d",
+			"fileName": "Room.js",
+			"wiki": "The new user's client receives the answer and finalizes the peer connection. Once the WebRTC connection is established, the `stream` event fires on the peer object, providing the remote user's media stream.",
+			"cellName": "Connection Established and Stream Received - Room.js:L110-112",
+			"cellId": "6fc92595-4114-41d1-9ca8-46f1c4f36fb8",
+			"visible": true,
+			"startLine": 110,
+			"endLine": 112,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"9f1f191e-5112-4fef-aa14-eb7666917009": {
+			"path": "9f1f191e-5112-4fef-aa14-eb7666917009",
+			"cellName": "API Call:\nAnnounce Joining",
+			"cellId": "9f1f191e-5112-4fef-aa14-eb7666917009",
+			"visible": true
+		},
+		"generated-edge-simstep-26fee657-434e-4ece-aeff-95451b7aab8f-9f1f191e-5112-4fef-aa14-eb7666917009": {
+			"path": "generated-edge-simstep-26fee657-434e-4ece-aeff-95451b7aab8f-9f1f191e-5112-4fef-aa14-eb7666917009",
+			"fileName": "Room.js",
+			"cellName": "API Call: Announce Joining",
+			"cellId": "9f1f191e-5112-4fef-aa14-eb7666917009",
+			"visible": true,
+			"startLine": 149,
+			"endLine": 149,
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"16e5b6d0-d1a2-450b-9138-4d5d1767f1db": {
+			"path": "16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+			"cellName": "API Call:\nSend List\nof Existing\nUsers",
+			"cellId": "16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+			"visible": true
+		},
+		"generated-edge-simstep-531f0f27-27a5-483a-ab96-8e5a49ff13ff-16e5b6d0-d1a2-450b-9138-4d5d1767f1db": {
+			"path": "generated-edge-simstep-531f0f27-27a5-483a-ab96-8e5a49ff13ff-16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+			"fileName": "server.js",
+			"cellName": "API Call: Send List of Existing Users",
+			"cellId": "16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+			"visible": true,
+			"startLine": 33,
+			"endLine": 33,
+			"parentPath": "server.js"
+		},
+		"44136345-e072-4ba6-9c4d-fe2007f7887c": {
+			"path": "44136345-e072-4ba6-9c4d-fe2007f7887c",
+			"cellName": "API Call:\nSend Offer\nSignal",
+			"cellId": "44136345-e072-4ba6-9c4d-fe2007f7887c",
+			"visible": true
+		},
+		"generated-edge-simstep-b02419c7-b956-4837-a6cd-eea8ae033a9e-44136345-e072-4ba6-9c4d-fe2007f7887c": {
+			"path": "generated-edge-simstep-b02419c7-b956-4837-a6cd-eea8ae033a9e-44136345-e072-4ba6-9c4d-fe2007f7887c",
+			"fileName": "Room.js",
+			"cellName": "API Call: Send Offer Signal",
+			"cellId": "44136345-e072-4ba6-9c4d-fe2007f7887c",
+			"visible": true,
+			"startLine": 241,
+			"endLine": 245,
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"52f3fe2d-0e97-42ad-8d48-d687cdddb98f": {
+			"path": "52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+			"cellName": "API Call:\nNotify Existing\nUser of\nNew Peer",
+			"cellId": "52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+			"visible": true
+		},
+		"generated-edge-simstep-27b72182-7637-4b67-b0a8-191ad4459c6d-52f3fe2d-0e97-42ad-8d48-d687cdddb98f": {
+			"path": "generated-edge-simstep-27b72182-7637-4b67-b0a8-191ad4459c6d-52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+			"fileName": "server.js",
+			"cellName": "API Call: Notify Existing User of New Peer",
+			"cellId": "52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+			"visible": true,
+			"startLine": 37,
+			"endLine": 41,
+			"parentPath": "server.js"
+		},
+		"96504682-c233-4542-8d67-5414f7028833": {
+			"path": "96504682-c233-4542-8d67-5414f7028833",
+			"cellName": "API Call:\nSend Answer\nSignal",
+			"cellId": "96504682-c233-4542-8d67-5414f7028833",
+			"visible": true
+		},
+		"generated-edge-simstep-47ca3cc9-e7c4-49df-9b29-5b540d017541-96504682-c233-4542-8d67-5414f7028833": {
+			"path": "generated-edge-simstep-47ca3cc9-e7c4-49df-9b29-5b540d017541-96504682-c233-4542-8d67-5414f7028833",
+			"fileName": "Room.js",
+			"cellName": "API Call: Send Answer Signal",
+			"cellId": "96504682-c233-4542-8d67-5414f7028833",
+			"visible": true,
+			"startLine": 44,
+			"endLine": 44,
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"b927dbe5-5ce3-4fe3-85c3-378d4e00d73e": {
+			"path": "b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+			"cellName": "API Call:\nDeliver Final\nSignal",
+			"cellId": "b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+			"visible": true
+		},
+		"generated-edge-simstep-4f8bac67-9d49-44a8-9f41-02c39cdfe31d-b927dbe5-5ce3-4fe3-85c3-378d4e00d73e": {
+			"path": "generated-edge-simstep-4f8bac67-9d49-44a8-9f41-02c39cdfe31d-b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+			"fileName": "server.js",
+			"cellName": "API Call: Deliver Final Signal",
+			"cellId": "b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+			"visible": true,
+			"startLine": 45,
+			"endLine": 51,
+			"parentPath": "server.js"
+		},
+		"a42a4950-7b26-439a-ae31-19ca3cde26f1": {
+			"path": "a42a4950-7b26-439a-ae31-19ca3cde26f1",
+			"cellName": "App.js",
+			"cellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8"
+		},
+		"fe38e07b-ff4e-4f9b-8037-5d9d9025390f": {
+			"path": "fe38e07b-ff4e-4f9b-8037-5d9d9025390f",
+			"cellName": "CreateRoom.js",
+			"cellId": "fe38e07b-ff4e-4f9b-8037-5d9d9025390f",
+			"visible": true,
+			"parentCellId": "dfee4bfa-5c58-4a56-8c88-cdcf80776dea"
+		},
+		"2394b4b1-b71b-403f-99d7-ac65a22e4688": {
+			"path": "2394b4b1-b71b-403f-99d7-ac65a22e4688",
+			"cellName": "Initial App Routing - App.js:L11",
+			"cellId": "2394b4b1-b71b-403f-99d7-ac65a22e4688",
+			"visible": true,
+			"parentCellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1"
+		},
+		"client/src/App.js-simstep-f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5": {
+			"path": "client/src/App.js-simstep-f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5",
+			"fileName": "App.js",
+			"wiki": "A user navigates to the root URL ('/'). The main App component's router matches this path and maps it to the 'CreateRoom' component.",
+			"cellName": "Initial App Routing - App.js:L11",
+			"cellId": "2394b4b1-b71b-403f-99d7-ac65a22e4688",
+			"visible": true,
+			"startLine": 11,
+			"endLine": 11,
+			"parentCellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1",
+			"parentPath": "client/src/App.js"
+		},
+		"352fee40-5a3c-4e1c-a52d-ed0ff51d0626": {
+			"path": "352fee40-5a3c-4e1c-a52d-ed0ff51d0626",
+			"cellName": "Room ID Generation and Redirect - CreateRoom.js:L7-8",
+			"cellId": "352fee40-5a3c-4e1c-a52d-ed0ff51d0626",
+			"visible": true,
+			"parentCellId": "fe38e07b-ff4e-4f9b-8037-5d9d9025390f"
+		},
+		"client/src/routes/CreateRoom.js-simstep-11701434-7a08-4302-8fc1-872d0756d7ba": {
+			"path": "client/src/routes/CreateRoom.js-simstep-11701434-7a08-4302-8fc1-872d0756d7ba",
+			"fileName": "CreateRoom.js",
+			"wiki": "The 'CreateRoom' component executes. It immediately generates a unique version 1 UUID for the new room and uses the browser's history API to redirect the user to a new URL containing this ID.",
+			"cellName": "Room ID Generation and Redirect - CreateRoom.js:L7-8",
+			"cellId": "352fee40-5a3c-4e1c-a52d-ed0ff51d0626",
+			"visible": true,
+			"startLine": 7,
+			"endLine": 8,
+			"parentCellId": "fe38e07b-ff4e-4f9b-8037-5d9d9025390f",
+			"parentPath": "client/src/routes/CreateRoom.js"
+		},
+		"e191f531-f18a-46ff-9799-f98642d9c782": {
+			"path": "e191f531-f18a-46ff-9799-f98642d9c782",
+			"cellName": "Route to Room Component - App.js:L12",
+			"cellId": "e191f531-f18a-46ff-9799-f98642d9c782",
+			"visible": true,
+			"parentCellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1"
+		},
+		"client/src/App.js-simstep-8ca2bf60-8053-4809-8171-600aa7226d13": {
+			"path": "client/src/App.js-simstep-8ca2bf60-8053-4809-8171-600aa7226d13",
+			"fileName": "App.js",
+			"wiki": "The App router now matches the new URL ('/room/:roomID') and maps it to the 'Room' component, passing the room ID from the URL as a parameter.",
+			"cellName": "Route to Room Component - App.js:L12",
+			"cellId": "e191f531-f18a-46ff-9799-f98642d9c782",
+			"visible": true,
+			"startLine": 12,
+			"endLine": 12,
+			"parentCellId": "a42a4950-7b26-439a-ae31-19ca3cde26f1",
+			"parentPath": "client/src/App.js"
+		},
+		"90d39d75-3f34-40cd-b170-d89dcf02d35a": {
+			"path": "90d39d75-3f34-40cd-b170-d89dcf02d35a",
+			"cellName": "Server Processes 'join-room' - server.js:L13-16",
+			"cellId": "90d39d75-3f34-40cd-b170-d89dcf02d35a",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-b78f3135-3988-4728-9dac-8a2d7df45862": {
+			"path": "server.js-simstep-b78f3135-3988-4728-9dac-8a2d7df45862",
+			"fileName": "server.js",
+			"wiki": "The server's Socket.IO instance listens for and receives the 'join-room' event. It extracts the payload, creates a new peer object with the client's socket ID and coordinates.",
+			"cellName": "Server Processes 'join-room' - server.js:L13-16",
+			"cellId": "90d39d75-3f34-40cd-b170-d89dcf02d35a",
+			"visible": true,
+			"startLine": 13,
+			"endLine": 16,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"0f17f173-f7ae-4554-8309-760c9dc04d62": {
+			"path": "0f17f173-f7ae-4554-8309-760c9dc04d62",
+			"cellName": "Server Updates Room State - server.js:L20-26",
+			"cellId": "0f17f173-f7ae-4554-8309-760c9dc04d62",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-272e24a0-6a26-4583-86ce-a1670fddbac6": {
+			"path": "server.js-simstep-272e24a0-6a26-4583-86ce-a1670fddbac6",
+			"fileName": "server.js",
+			"wiki": "The server adds the new user to its in-memory 'users' object, keyed by the room ID. If the room doesn't exist, it's created. The server also maps the client's socket ID to the room ID for future lookups (like on disconnect).",
+			"cellName": "Server Updates Room State - server.js:L20-26",
+			"cellId": "0f17f173-f7ae-4554-8309-760c9dc04d62",
+			"visible": true,
+			"startLine": 20,
+			"endLine": 26,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7": {
+			"path": "99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7",
+			"cellName": "Client Receives Room Data and Establishes Peer Connections - Room.js:L146-170",
+			"cellId": "99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-bb112e0d-3269-4f7b-b7eb-3cccc94856d8": {
+			"path": "client/src/routes/Room.js-simstep-bb112e0d-3269-4f7b-b7eb-3cccc94856d8",
+			"fileName": "Room.js",
+			"wiki": "The client receives both the 'your-welcome-package' and 'existing-users' events. It uses the welcome package to set its own state. It then iterates through the list of existing users to initiate WebRTC peer connections with each one.",
+			"cellName": "Client Receives Room Data and Establishes Peer Connections - Room.js:L146-170",
+			"cellId": "99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7",
+			"visible": true,
+			"startLine": 146,
+			"endLine": 170,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"f0dc4545-e33f-4a3e-8ca0-67352f617890": {
+			"path": "f0dc4545-e33f-4a3e-8ca0-67352f617890",
+			"cellName": "Component Render\nRequest",
+			"cellId": "f0dc4545-e33f-4a3e-8ca0-67352f617890",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8"
+		},
+		"generated-edge-simstep-bd702714-062f-4e38-98c6-255df6779d72-f0dc4545-e33f-4a3e-8ca0-67352f617890": {
+			"path": "generated-edge-simstep-bd702714-062f-4e38-98c6-255df6779d72-f0dc4545-e33f-4a3e-8ca0-67352f617890",
+			"fileName": "App.js",
+			"cellName": "Component Render Request",
+			"cellId": "f0dc4545-e33f-4a3e-8ca0-67352f617890",
+			"visible": true,
+			"startLine": 11,
+			"endLine": 11,
+			"parentPath": "client/src/App.js"
+		},
+		"148d5ccc-67e3-4c14-8a8a-6fb51c780720": {
+			"path": "148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+			"cellName": "URL Navigation",
+			"cellId": "148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+			"visible": true,
+			"parentCellId": "747b6460-10a1-48cb-8c3d-91eb23d4c9d8"
+		},
+		"generated-edge-simstep-e578ec9a-db32-42ad-8451-4fd16a834962-148d5ccc-67e3-4c14-8a8a-6fb51c780720": {
+			"path": "generated-edge-simstep-e578ec9a-db32-42ad-8451-4fd16a834962-148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+			"fileName": "CreateRoom.js",
+			"cellName": "URL Navigation",
+			"cellId": "148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+			"visible": true,
+			"startLine": 8,
+			"endLine": 8,
+			"parentPath": "client/src/routes/CreateRoom.js"
+		},
+		"fed3d2f8-b972-48b5-b684-40673ed85d89": {
+			"path": "fed3d2f8-b972-48b5-b684-40673ed85d89",
+			"cellName": "Client Emits\n'join-room'",
+			"cellId": "fed3d2f8-b972-48b5-b684-40673ed85d89",
+			"visible": true
+		},
+		"generated-edge-simstep-79a3935b-aefe-49e1-9b37-1ca8b2789989-fed3d2f8-b972-48b5-b684-40673ed85d89": {
+			"path": "generated-edge-simstep-79a3935b-aefe-49e1-9b37-1ca8b2789989-fed3d2f8-b972-48b5-b684-40673ed85d89",
+			"fileName": "App.js",
+			"cellName": "Client Emits 'join-room'",
+			"cellId": "fed3d2f8-b972-48b5-b684-40673ed85d89",
+			"visible": true,
+			"startLine": 145,
+			"endLine": 145,
+			"parentPath": "client/src/App.js"
+		},
+		"20834ce6-c84e-4a67-a480-df7376fac895": {
+			"path": "20834ce6-c84e-4a67-a480-df7376fac895",
+			"cellName": "Server Responds\nwith 'your-welcome-package'",
+			"cellId": "20834ce6-c84e-4a67-a480-df7376fac895",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"generated-edge-simstep-4b3ef239-6d48-45a4-a0ff-c3634c85591a-20834ce6-c84e-4a67-a480-df7376fac895": {
+			"path": "generated-edge-simstep-4b3ef239-6d48-45a4-a0ff-c3634c85591a-20834ce6-c84e-4a67-a480-df7376fac895",
+			"fileName": "server.js",
+			"cellName": "Server Responds with 'your-welcome-package'",
+			"cellId": "20834ce6-c84e-4a67-a480-df7376fac895",
+			"visible": true,
+			"startLine": 17,
+			"endLine": 17,
+			"parentPath": "server.js"
+		},
+		"ea819186-991f-49e1-9161-73511cb492e4": {
+			"path": "ea819186-991f-49e1-9161-73511cb492e4",
+			"cellName": "Server Sends\nList of\nExisting Users",
+			"cellId": "ea819186-991f-49e1-9161-73511cb492e4",
+			"visible": true
+		},
+		"generated-edge-simstep-a542d335-b12f-4a5a-a4fc-51b9072056cb-ea819186-991f-49e1-9161-73511cb492e4": {
+			"path": "generated-edge-simstep-a542d335-b12f-4a5a-a4fc-51b9072056cb-ea819186-991f-49e1-9161-73511cb492e4",
+			"fileName": "server.js",
+			"cellName": "Server Sends List of Existing Users",
+			"cellId": "ea819186-991f-49e1-9161-73511cb492e4",
+			"visible": true,
+			"startLine": 28,
+			"endLine": 33,
+			"parentPath": "server.js"
+		},
+		"bdbdb355-20bc-472e-91b9-e0a2bf62f1cb": {
+			"path": "bdbdb355-20bc-472e-91b9-e0a2bf62f1cb",
+			"cellName": "Generate Initial Coordinates - Room.js:L46-52",
+			"cellId": "bdbdb355-20bc-472e-91b9-e0a2bf62f1cb",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-27bcdb0a-eef4-47ed-97fb-0f8ef7219efd": {
+			"path": "client/src/routes/Room.js-simstep-27bcdb0a-eef4-47ed-97fb-0f8ef7219efd",
+			"fileName": "Room.js",
+			"wiki": "Upon entering a room, the client's browser calls the `randomCoordinates` function to generate a random (x, y) position for the user's avatar within the 2D stage.",
+			"cellName": "Generate Initial Coordinates - Room.js:L46-52",
+			"cellId": "bdbdb355-20bc-472e-91b9-e0a2bf62f1cb",
+			"visible": true,
+			"startLine": 46,
+			"endLine": 52,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"49394469-e8d8-4c7a-934a-3f7eaff2f2e8": {
+			"path": "49394469-e8d8-4c7a-934a-3f7eaff2f2e8",
+			"cellName": "Server Receives 'join-room' Event - server.js:L14-18",
+			"cellId": "49394469-e8d8-4c7a-934a-3f7eaff2f2e8",
+			"visible": true,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04"
+		},
+		"server.js-simstep-3c61b93d-7b6b-40e4-9844-b10642cec363": {
+			"path": "server.js-simstep-3c61b93d-7b6b-40e4-9844-b10642cec363",
+			"fileName": "server.js",
+			"wiki": "The server's WebSocket listener receives the 'join-room' event. It extracts the payload, creates a new peer object with the client's socket ID and coordinates, and prepares a welcome package.",
+			"cellName": "Server Receives 'join-room' Event - server.js:L14-18",
+			"cellId": "49394469-e8d8-4c7a-934a-3f7eaff2f2e8",
+			"visible": true,
+			"startLine": 14,
+			"endLine": 18,
+			"parentCellId": "c31af4f6-ab55-42b7-bdf4-c3bae3240f04",
+			"parentPath": "server.js"
+		},
+		"bedcf977-144c-4be7-94e5-4d8fb6466ac9": {
+			"path": "bedcf977-144c-4be7-94e5-4d8fb6466ac9",
+			"cellName": "Client Processes Welcome Package - Room.js:L150-156",
+			"cellId": "bedcf977-144c-4be7-94e5-4d8fb6466ac9",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-8557a1c4-29db-4fc4-8f87-d0f8d375c892": {
+			"path": "client/src/routes/Room.js-simstep-8557a1c4-29db-4fc4-8f87-d0f8d375c892",
+			"fileName": "Room.js",
+			"wiki": "The client listens for the 'your-welcome-package' event. Upon receipt, it updates its internal state (`myPeer`) with its ID, the confirmed coordinates, and its local media stream.",
+			"cellName": "Client Processes Welcome Package - Room.js:L150-156",
+			"cellId": "bedcf977-144c-4be7-94e5-4d8fb6466ac9",
+			"visible": true,
+			"startLine": 150,
+			"endLine": 156,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"d6de0b12-765c-41fb-9e8e-a136b0f4eae6": {
+			"path": "d6de0b12-765c-41fb-9e8e-a136b0f4eae6",
+			"cellName": "Render User's Own Video Avatar - Room.js:L94-105",
+			"cellId": "d6de0b12-765c-41fb-9e8e-a136b0f4eae6",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-b3d4474a-5e9c-4eb4-ab1b-920c69158c01": {
+			"path": "client/src/routes/Room.js-simstep-b3d4474a-5e9c-4eb4-ab1b-920c69158c01",
+			"fileName": "Room.js",
+			"wiki": "The `MyVideo` component receives the `peer` prop. It constructs a `StyledNode` component, passing the coordinates from the prop to `StyledNode`'s `top` and `left` props.",
+			"cellName": "Render User's Own Video Avatar - Room.js:L94-105",
+			"cellId": "d6de0b12-765c-41fb-9e8e-a136b0f4eae6",
+			"visible": true,
+			"startLine": 94,
+			"endLine": 105,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"462e9ac4-3f28-4ad5-858a-e89a501192b5": {
+			"path": "462e9ac4-3f28-4ad5-858a-e89a501192b5",
+			"cellName": "Apply Positional Styles via CSS - Room.js:L34-43",
+			"cellId": "462e9ac4-3f28-4ad5-858a-e89a501192b5",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"client/src/routes/Room.js-simstep-2af15707-a112-4950-9b72-6a37eb472a6c": {
+			"path": "client/src/routes/Room.js-simstep-2af15707-a112-4950-9b72-6a37eb472a6c",
+			"fileName": "Room.js",
+			"wiki": "The `StyledNode` component, a styled-component, interprets the `top` and `left` props and injects them into its CSS template, applying `position: absolute` and setting the `top` and `left` style properties to position the avatar on the screen.",
+			"cellName": "Apply Positional Styles via CSS - Room.js:L34-43",
+			"cellId": "462e9ac4-3f28-4ad5-858a-e89a501192b5",
+			"visible": true,
+			"startLine": 34,
+			"endLine": 43,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272",
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"6867a760-d29d-467d-90c6-02c2677faecc": {
+			"path": "6867a760-d29d-467d-90c6-02c2677faecc",
+			"cellName": "Client ->\nServer: Emit\n'join-room' Event",
+			"cellId": "6867a760-d29d-467d-90c6-02c2677faecc",
+			"visible": true
+		},
+		"generated-edge-simstep-8ec5aee3-9e59-486b-9bbf-f5743c655acf-6867a760-d29d-467d-90c6-02c2677faecc": {
+			"path": "generated-edge-simstep-8ec5aee3-9e59-486b-9bbf-f5743c655acf-6867a760-d29d-467d-90c6-02c2677faecc",
+			"fileName": "Room.js",
+			"cellName": "Client -> Server: Emit 'join-room' Event",
+			"cellId": "6867a760-d29d-467d-90c6-02c2677faecc",
+			"visible": true,
+			"startLine": 149,
+			"endLine": 149,
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"f576a341-6aa5-49e7-a6a7-6557e3a04175": {
+			"path": "f576a341-6aa5-49e7-a6a7-6557e3a04175",
+			"cellName": "Server ->\nClient: Emit\n'your-welcome-package' Event",
+			"cellId": "f576a341-6aa5-49e7-a6a7-6557e3a04175",
+			"visible": true
+		},
+		"generated-edge-simstep-1b38353c-9e8f-453a-8c52-ae0bcfdbd185-f576a341-6aa5-49e7-a6a7-6557e3a04175": {
+			"path": "generated-edge-simstep-1b38353c-9e8f-453a-8c52-ae0bcfdbd185-f576a341-6aa5-49e7-a6a7-6557e3a04175",
+			"fileName": "server.js",
+			"cellName": "Server -> Client: Emit 'your-welcome-package' Event",
+			"cellId": "f576a341-6aa5-49e7-a6a7-6557e3a04175",
+			"visible": true,
+			"startLine": 18,
+			"endLine": 18,
+			"parentPath": "server.js"
+		},
+		"cb3747a8-2d7f-400b-aaac-e4f811798720": {
+			"path": "cb3747a8-2d7f-400b-aaac-e4f811798720",
+			"cellName": "React Props:\nPass Coordinates\nto Component",
+			"cellId": "cb3747a8-2d7f-400b-aaac-e4f811798720",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"generated-edge-simstep-44c5fbea-7a6e-42d5-819a-b73f55f37f62-cb3747a8-2d7f-400b-aaac-e4f811798720": {
+			"path": "generated-edge-simstep-44c5fbea-7a6e-42d5-819a-b73f55f37f62-cb3747a8-2d7f-400b-aaac-e4f811798720",
+			"fileName": "Room.js",
+			"cellName": "React Props: Pass Coordinates to Component",
+			"cellId": "cb3747a8-2d7f-400b-aaac-e4f811798720",
+			"visible": true,
+			"startLine": 279,
+			"endLine": 279,
+			"parentPath": "client/src/routes/Room.js"
+		},
+		"801baea4-0a0e-47e4-8f94-9f7e8a14475e": {
+			"path": "801baea4-0a0e-47e4-8f94-9f7e8a14475e",
+			"cellName": "React Props:\nPass Coordinates\nto Styled\nComponent",
+			"cellId": "801baea4-0a0e-47e4-8f94-9f7e8a14475e",
+			"visible": true,
+			"parentCellId": "63df3399-6dec-4a79-9180-1feeae987272"
+		},
+		"generated-edge-simstep-1c189ad3-ef1f-4f9c-bcc0-67f6d14455a8-801baea4-0a0e-47e4-8f94-9f7e8a14475e": {
+			"path": "generated-edge-simstep-1c189ad3-ef1f-4f9c-bcc0-67f6d14455a8-801baea4-0a0e-47e4-8f94-9f7e8a14475e",
+			"fileName": "Room.js",
+			"cellName": "React Props: Pass Coordinates to Styled Component",
+			"cellId": "801baea4-0a0e-47e4-8f94-9f7e8a14475e",
+			"visible": true,
+			"startLine": 95,
+			"endLine": 102,
+			"parentPath": "client/src/routes/Room.js"
+		}
+	},
+	"simulations": {
+		"Real-time Peer-to-Peer Video and Audio Conferencing": {
+			"name": "Real-time Peer-to-Peer Video and Audio Conferencing",
+			"simSteps": [
+				{
+					"simStepId": "9ee9c928-c7b9-4de6-9189-696ca7099fbd",
+					"diagramNodeId": "a941afe4-5106-45a9-8323-0e45e45a3a13",
+					"simStepLabel": "Initialize Media Stream and Connect",
+					"simStepDescription": "When the Room component mounts, the client attempts to connect to the Socket.IO server. It then requests access to the user's camera and microphone using `navigator.mediaDevices.getUserMedia`.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "142",
+						"endLine": "146",
+						"relevantVariables": [
+							"socketRef",
+							"io.connect",
+							"navigator.mediaDevices.getUserMedia",
+							"myStream"
+						]
+					},
+					"inputDataExample": "{\n  \"roomID\": \"c7a9a2f1-5e7c-4a3b-8b1e-9f0a2d3c4b5e\"\n}",
+					"outputDataExample": "{\n  \"myStream\": \"[MediaStream Object]\",\n  \"socketRef\": \"[Socket.IO Client Object]\"\n}"
+				},
+				{
+					"simStepId": "26fee657-434e-4ece-aeff-95451b7aab8f",
+					"diagramNodeId": "9f1f191e-5112-4fef-aa14-eb7666917009",
+					"simStepLabel": "API Call: Announce Joining",
+					"simStepDescription": "After successfully obtaining the media stream, the client emits a `join-room` event to the server, sending the room ID and its initial coordinates to announce its presence.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "149",
+						"endLine": "149",
+						"relevantVariables": [
+							"socketRef.current.emit"
+						]
+					},
+					"inputDataExample": "{\n  \"roomID\": \"c7a9a2f1-5e7c-4a3b-8b1e-9f0a2d3c4b5e\",\n  \"initialCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}",
+					"outputDataExample": "{\n  \"roomID\": \"c7a9a2f1-5e7c-4a3b-8b1e-9f0a2d3c4b5e\",\n  \"initialCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}"
+				},
+				{
+					"simStepId": "4a7b13f0-6ebf-41b8-ae9a-b4753fa319af",
+					"diagramNodeId": "7745f121-ae62-449d-bf29-d4dd124a4121",
+					"simStepLabel": "Server: Process New User",
+					"simStepDescription": "The server's `join-room` listener fires. It registers the new user's socket, adds them to the list of users for that room, and prepares a list of users who are already present.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "14",
+						"endLine": "32",
+						"relevantVariables": [
+							"socket.on('join-room')",
+							"users",
+							"socketToRoom",
+							"usersInThisRoom"
+						]
+					},
+					"inputDataExample": "{\n  \"roomID\": \"c7a9a2f1-5e7c-4a3b-8b1e-9f0a2d3c4b5e\",\n  \"initialCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}",
+					"outputDataExample": "{\n  \"usersInThisRoom\": [\n    {\n      \"id\": \"EkL8X2fG7H9jP5kDAAAC\",\n      \"coordinates\": {\n        \"x\": 230,\n        \"y\": 710\n      }\n    }\n  ]\n}"
+				},
+				{
+					"simStepId": "531f0f27-27a5-483a-ab96-8e5a49ff13ff",
+					"diagramNodeId": "16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+					"simStepLabel": "API Call: Send List of Existing Users",
+					"simStepDescription": "The server emits an `existing-users` event back to the newly connected client, providing the list of peers already in the room.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "33",
+						"endLine": "33",
+						"relevantVariables": [
+							"socket.emit",
+							"usersInThisRoom"
+						]
+					},
+					"inputDataExample": "[\n  {\n    \"id\": \"EkL8X2fG7H9jP5kDAAAC\",\n    \"coordinates\": {\n      \"x\": 230,\n      \"y\": 710\n    }\n  }\n]",
+					"outputDataExample": "[\n  {\n    \"id\": \"EkL8X2fG7H9jP5kDAAAC\",\n    \"coordinates\": {\n      \"x\": 230,\n      \"y\": 710\n    }\n  }\n]"
+				},
+				{
+					"simStepId": "6e74a24e-6ffc-4a2d-8687-881bd41fdbf0",
+					"diagramNodeId": "870e7490-0774-4af4-aa78-7b07be3c9641",
+					"simStepLabel": "Client: Initiate Peer Connection (Offer)",
+					"simStepDescription": "The new client receives the list of existing users. It then creates a new `Peer` object for each one with `initiator: true`. This automatically generates a WebRTC offer signal needed to start a peer connection.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "232",
+						"endLine": "240",
+						"relevantVariables": [
+							"Peer",
+							"initiator",
+							"stream",
+							"peer.on"
+						]
+					},
+					"inputDataExample": "[\n  {\n    \"id\": \"EkL8X2fG7H9jP5kDAAAC\",\n    \"coordinates\": {\n      \"x\": 230,\n      \"y\": 710\n    }\n  }\n]",
+					"outputDataExample": "{\n  \"existingUserID\": \"EkL8X2fG7H9jP5kDAAAC\",\n  \"myID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"myCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}"
+				},
+				{
+					"simStepId": "b02419c7-b956-4837-a6cd-eea8ae033a9e",
+					"diagramNodeId": "44136345-e072-4ba6-9c4d-fe2007f7887c",
+					"simStepLabel": "API Call: Send Offer Signal",
+					"simStepDescription": "The `signal` event on the newly created peer fires. The client sends this offer signal to the server, targeting the specific existing user.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "241",
+						"endLine": "245",
+						"relevantVariables": [
+							"socketRef.current.emit"
+						]
+					},
+					"inputDataExample": "{\n  \"existingUserID\": \"EkL8X2fG7H9jP5kDAAAC\",\n  \"myID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"myCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}",
+					"outputDataExample": "{\n  \"existingUserID\": \"EkL8X2fG7H9jP5kDAAAC\",\n  \"myID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"myCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}"
+				},
+				{
+					"simStepId": "18f0b8d1-9c06-4fbd-98c9-28c8a31702df",
+					"diagramNodeId": "5a164063-9a04-4b6c-a167-c3c7fee08dbe",
+					"simStepLabel": "Server: Forward Offer Signal",
+					"simStepDescription": "The server receives the `stream-to-existing-users` event. It acts as a signaling server, forwarding the offer signal to the specified existing user via a `user-joined` event.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "36",
+						"endLine": "42",
+						"relevantVariables": [
+							"socket.on('stream-to-existing-users')",
+							"io.to",
+							"payload"
+						]
+					},
+					"inputDataExample": "{\n  \"existingUserID\": \"EkL8X2fG7H9jP5kDAAAC\",\n  \"myID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"myCoordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}",
+					"outputDataExample": "{\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"coordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}"
+				},
+				{
+					"simStepId": "27b72182-7637-4b67-b0a8-191ad4459c6d",
+					"diagramNodeId": "52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+					"simStepLabel": "API Call: Notify Existing User of New Peer",
+					"simStepDescription": "The server emits the `user-joined` event to the existing user, carrying the offer signal and the ID of the new user.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "37",
+						"endLine": "41",
+						"relevantVariables": [
+							"io.to",
+							"emit('user-joined')"
+						]
+					},
+					"inputDataExample": "{\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"coordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}",
+					"outputDataExample": "{\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"coordinates\": {\n    \"x\": 450,\n    \"y\": 600\n  }\n}"
+				},
+				{
+					"simStepId": "d29d070f-f816-4fbf-97eb-901ba2dc7708",
+					"diagramNodeId": "16dc9fc6-1650-4b51-aec4-ef48eb5cc01d",
+					"simStepLabel": "Existing Client: Create Peer Connection (Answer)",
+					"simStepDescription": "The existing user's client receives the `user-joined` event. It creates a new `Peer` object with `initiator: false`, processes the offer, and generates a WebRTC answer signal to send back.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "256",
+						"endLine": "264",
+						"relevantVariables": [
+							"Peer",
+							"initiator: false",
+							"stream"
+						]
+					},
+					"inputDataExample": "{\n  \"signal\": {\n    \"type\": \"offer\",\n    \"sdp\": \"v=0\\r\\no=- 12345 67890 IN IP4 127.0.0.1...\"\n  },\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\"\n}",
+					"outputDataExample": "{\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  }\n}"
+				},
+				{
+					"simStepId": "47ca3cc9-e7c4-49df-9b29-5b540d017541",
+					"diagramNodeId": "96504682-c233-4542-8d67-5414f7028833",
+					"simStepLabel": "API Call: Send Answer Signal",
+					"simStepDescription": "The existing user's client sends the generated answer signal back to the server via the `returning-signal-to-new-users` event, targeting the new user.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "44",
+						"endLine": "44",
+						"relevantVariables": [
+							"socket.on('returning-signal-to-new-users')"
+						]
+					},
+					"inputDataExample": "{\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  }\n}",
+					"outputDataExample": "{\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  }\n}"
+				},
+				{
+					"simStepId": "21c89ef8-13dd-461f-bfed-3fb961c64e5c",
+					"diagramNodeId": "061a7300-c308-4bc9-b441-9a9f0cf087f7",
+					"simStepLabel": "Server: Forward Answer Signal",
+					"simStepDescription": "The server receives the answer signal and forwards it to the new user who initiated the connection.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "44",
+						"endLine": "52",
+						"relevantVariables": [
+							"socket.on",
+							"io.to",
+							"emit"
+						]
+					},
+					"inputDataExample": "{\n  \"newUserID\": \"J8Dq4eJ3Z5fA6bC7AAAB\",\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  }\n}",
+					"outputDataExample": "{\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  },\n  \"id\": \"EkL8X2fG7H9jP5kDAAAC\"\n}"
+				},
+				{
+					"simStepId": "4f8bac67-9d49-44a8-9f41-02c39cdfe31d",
+					"diagramNodeId": "b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+					"simStepLabel": "API Call: Deliver Final Signal",
+					"simStepDescription": "The server sends the answer signal to the new user with the `receiving-returned-signal-from-existing-user` event, completing the signaling handshake.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "45",
+						"endLine": "51",
+						"relevantVariables": [
+							"io.to",
+							"emit('receiving-returned-signal-from-existing-user')"
+						]
+					},
+					"inputDataExample": "{\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  },\n  \"id\": \"EkL8X2fG7H9jP5kDAAAC\"\n}",
+					"outputDataExample": "{\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  },\n  \"id\": \"EkL8X2fG7H9jP5kDAAAC\"\n}"
+				},
+				{
+					"simStepId": "2546a6cb-ecd4-4a63-9439-4b1c8f6a586d",
+					"diagramNodeId": "6fc92595-4114-41d1-9ca8-46f1c4f36fb8",
+					"simStepLabel": "Connection Established and Stream Received",
+					"simStepDescription": "The new user's client receives the answer and finalizes the peer connection. Once the WebRTC connection is established, the `stream` event fires on the peer object, providing the remote user's media stream.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "110",
+						"endLine": "112",
+						"relevantVariables": [
+							"props.peerObj.peer.on",
+							"stream"
+						]
+					},
+					"inputDataExample": "{\n  \"signal\": {\n    \"type\": \"answer\",\n    \"sdp\": \"v=0\\r\\no=- 54321 98765 IN IP4 127.0.0.1...\"\n  },\n  \"id\": \"EkL8X2fG7H9jP5kDAAAC\"\n}",
+					"outputDataExample": "{\n  \"stream\": \"[Remote MediaStream Object]\"\n}"
+				},
+				{
+					"simStepId": "ec3062bb-3bc8-443e-b86e-39c76c7dcbc1",
+					"diagramNodeId": "",
+					"simStepLabel": "Data Flow: Attach Stream to Video Element",
+					"simStepDescription": "The received media stream is attached to the `srcObject` property of an HTML `<video>` element, causing the remote peer's video to be rendered on the screen.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "111",
+						"endLine": "111",
+						"relevantVariables": [
+							"ref.current.srcObject"
+						]
+					},
+					"inputDataExample": "{\n  \"stream\": \"[Remote MediaStream Object]\"\n}",
+					"outputDataExample": "{\n  \"stream\": \"[Remote MediaStream Object]\"\n}"
+				}
+			],
+			"description": "<ul><li>This is the core feature of the application, enabling face-to-face communication</li><li>It leverages WebRTC for efficient, low-latency, peer-to-peer connections</li><li>The application requests access to the user's camera and microphone to capture media</li><li>Each participant's video and audio stream is shared with every other participant in the room</li></ul>",
+			"simulationNodesAndEdges": {
+				"a941afe4-5106-45a9-8323-0e45e45a3a13": {
+					"simStepIds": [
+						"9ee9c928-c7b9-4de6-9189-696ca7099fbd"
+					]
+				},
+				"7745f121-ae62-449d-bf29-d4dd124a4121": {
+					"simStepIds": [
+						"4a7b13f0-6ebf-41b8-ae9a-b4753fa319af"
+					]
+				},
+				"870e7490-0774-4af4-aa78-7b07be3c9641": {
+					"simStepIds": [
+						"6e74a24e-6ffc-4a2d-8687-881bd41fdbf0"
+					]
+				},
+				"5a164063-9a04-4b6c-a167-c3c7fee08dbe": {
+					"simStepIds": [
+						"18f0b8d1-9c06-4fbd-98c9-28c8a31702df"
+					]
+				},
+				"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d": {
+					"simStepIds": [
+						"d29d070f-f816-4fbf-97eb-901ba2dc7708"
+					]
+				},
+				"061a7300-c308-4bc9-b441-9a9f0cf087f7": {
+					"simStepIds": [
+						"21c89ef8-13dd-461f-bfed-3fb961c64e5c"
+					]
+				},
+				"6fc92595-4114-41d1-9ca8-46f1c4f36fb8": {
+					"simStepIds": [
+						"2546a6cb-ecd4-4a63-9439-4b1c8f6a586d"
+					]
+				},
+				"9f1f191e-5112-4fef-aa14-eb7666917009": {
+					"simStepIds": [
+						"26fee657-434e-4ece-aeff-95451b7aab8f"
+					]
+				},
+				"16e5b6d0-d1a2-450b-9138-4d5d1767f1db": {
+					"simStepIds": [
+						"531f0f27-27a5-483a-ab96-8e5a49ff13ff"
+					]
+				},
+				"44136345-e072-4ba6-9c4d-fe2007f7887c": {
+					"simStepIds": [
+						"b02419c7-b956-4837-a6cd-eea8ae033a9e"
+					]
+				},
+				"52f3fe2d-0e97-42ad-8d48-d687cdddb98f": {
+					"simStepIds": [
+						"27b72182-7637-4b67-b0a8-191ad4459c6d"
+					]
+				},
+				"96504682-c233-4542-8d67-5414f7028833": {
+					"simStepIds": [
+						"47ca3cc9-e7c4-49df-9b29-5b540d017541"
+					]
+				},
+				"b927dbe5-5ce3-4fe3-85c3-378d4e00d73e": {
+					"simStepIds": [
+						"4f8bac67-9d49-44a8-9f41-02c39cdfe31d"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "simple-peer, getUserMedia, stream"
+		},
+		"Creating and Joining Multi-User Meeting Rooms": {
+			"name": "Creating and Joining Multi-User Meeting Rooms",
+			"simSteps": [
+				{
+					"simStepId": "f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5",
+					"diagramNodeId": "2394b4b1-b71b-403f-99d7-ac65a22e4688",
+					"simStepLabel": "Initial App Routing",
+					"simStepDescription": "A user navigates to the root URL ('/'). The main App component's router matches this path and maps it to the 'CreateRoom' component.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/App.js",
+						"startLine": "11",
+						"endLine": "11",
+						"relevantVariables": [
+							"BrowserRouter",
+							"Switch",
+							"Route",
+							"CreateRoom"
+						]
+					},
+					"inputDataExample": "{\n  \"url\": \"http://localhost:3000/\"\n}",
+					"outputDataExample": "{\n  \"componentToRender\": \"CreateRoom\"\n}"
+				},
+				{
+					"simStepId": "bd702714-062f-4e38-98c6-255df6779d72",
+					"diagramNodeId": "f0dc4545-e33f-4a3e-8ca0-67352f617890",
+					"simStepLabel": "Component Render Request",
+					"simStepDescription": "React's internal mechanism prepares to mount and render the 'CreateRoom' component as determined by the router.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/App.js",
+						"startLine": "11",
+						"endLine": "11",
+						"relevantVariables": [
+							"component={CreateRoom}"
+						]
+					},
+					"inputDataExample": "{\n  \"componentToRender\": \"CreateRoom\"\n}",
+					"outputDataExample": "{\n  \"componentToRender\": \"CreateRoom\"\n}"
+				},
+				{
+					"simStepId": "11701434-7a08-4302-8fc1-872d0756d7ba",
+					"diagramNodeId": "352fee40-5a3c-4e1c-a52d-ed0ff51d0626",
+					"simStepLabel": "Room ID Generation and Redirect",
+					"simStepDescription": "The 'CreateRoom' component executes. It immediately generates a unique version 1 UUID for the new room and uses the browser's history API to redirect the user to a new URL containing this ID.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/CreateRoom.js",
+						"startLine": "7",
+						"endLine": "8",
+						"relevantVariables": [
+							"uuid",
+							"id",
+							"history.push"
+						]
+					},
+					"inputDataExample": "{}",
+					"outputDataExample": "{\n  \"newPath\": \"/room/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n}"
+				},
+				{
+					"simStepId": "e578ec9a-db32-42ad-8451-4fd16a834962",
+					"diagramNodeId": "148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+					"simStepLabel": "URL Navigation",
+					"simStepDescription": "The browser's URL changes to the new room path, carrying the generated room ID as a parameter.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/CreateRoom.js",
+						"startLine": "8",
+						"endLine": "8",
+						"relevantVariables": [
+							"history.push"
+						]
+					},
+					"inputDataExample": "{\n  \"newPath\": \"/room/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n}",
+					"outputDataExample": "{\n  \"newPath\": \"/room/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n}"
+				},
+				{
+					"simStepId": "8ca2bf60-8053-4809-8171-600aa7226d13",
+					"diagramNodeId": "e191f531-f18a-46ff-9799-f98642d9c782",
+					"simStepLabel": "Route to Room Component",
+					"simStepDescription": "The App router now matches the new URL ('/room/:roomID') and maps it to the 'Room' component, passing the room ID from the URL as a parameter.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/App.js",
+						"startLine": "12",
+						"endLine": "12",
+						"relevantVariables": [
+							"Route",
+							"Room"
+						]
+					},
+					"inputDataExample": "{\n  \"url\": \"http://localhost:3000/room/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n}",
+					"outputDataExample": "{\n  \"componentToRender\": \"Room\",\n  \"props\": {\n    \"match\": {\n      \"params\": {\n        \"roomID\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n      }\n    }\n  }\n}"
+				},
+				{
+					"simStepId": "79a3935b-aefe-49e1-9b37-1ca8b2789989",
+					"diagramNodeId": "fed3d2f8-b972-48b5-b684-40673ed85d89",
+					"simStepLabel": "Client Emits 'join-room'",
+					"simStepDescription": "After the 'Room' component mounts and acquires the user's media stream, it emits a 'join-room' event via Socket.IO to the server, sending the room ID and randomly generated initial coordinates.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "145",
+						"endLine": "145",
+						"relevantVariables": [
+							"socketRef.current.emit",
+							"roomID",
+							"initialCoordinates"
+						]
+					},
+					"inputDataExample": "{\n  \"roomID\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\",\n  \"initialCoordinates\": {\n    \"x\": \"780px\",\n    \"y\": \"450px\"\n  }\n}",
+					"outputDataExample": "{\n  \"roomID\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\",\n  \"initialCoordinates\": {\n    \"x\": \"780px\",\n    \"y\": \"450px\"\n  }\n}"
+				},
+				{
+					"simStepId": "b78f3135-3988-4728-9dac-8a2d7df45862",
+					"diagramNodeId": "90d39d75-3f34-40cd-b170-d89dcf02d35a",
+					"simStepLabel": "Server Processes 'join-room'",
+					"simStepDescription": "The server's Socket.IO instance listens for and receives the 'join-room' event. It extracts the payload, creates a new peer object with the client's socket ID and coordinates.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "13",
+						"endLine": "16",
+						"relevantVariables": [
+							"socket.on",
+							"payload",
+							"roomID",
+							"initialCoordinates",
+							"newPeer"
+						]
+					},
+					"inputDataExample": "{\n  \"payload\": {\n    \"roomID\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\",\n    \"initialCoordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  }\n}",
+					"outputDataExample": "{\n  \"newPeer\": {\n    \"id\": \"_some_socket_id_abc123\",\n    \"coordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  }\n}"
+				},
+				{
+					"simStepId": "4b3ef239-6d48-45a4-a0ff-c3634c85591a",
+					"diagramNodeId": "20834ce6-c84e-4a67-a480-df7376fac895",
+					"simStepLabel": "Server Responds with 'your-welcome-package'",
+					"simStepDescription": "The server immediately sends a 'your-welcome-package' event back to the originating client, confirming their details.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "17",
+						"endLine": "17",
+						"relevantVariables": [
+							"socket.emit",
+							"newPeer"
+						]
+					},
+					"inputDataExample": "{\n  \"newPeer\": {\n    \"id\": \"_some_socket_id_abc123\",\n    \"coordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  }\n}",
+					"outputDataExample": "{\n  \"newPeer\": {\n    \"id\": \"_some_socket_id_abc123\",\n    \"coordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  }\n}"
+				},
+				{
+					"simStepId": "272e24a0-6a26-4583-86ce-a1670fddbac6",
+					"diagramNodeId": "0f17f173-f7ae-4554-8309-760c9dc04d62",
+					"simStepLabel": "Server Updates Room State",
+					"simStepDescription": "The server adds the new user to its in-memory 'users' object, keyed by the room ID. If the room doesn't exist, it's created. The server also maps the client's socket ID to the room ID for future lookups (like on disconnect).",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "20",
+						"endLine": "26",
+						"relevantVariables": [
+							"users",
+							"roomID",
+							"newPeer",
+							"socketToRoom"
+						]
+					},
+					"inputDataExample": "{\n  \"roomID\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\",\n  \"newPeer\": {\n    \"id\": \"_some_socket_id_abc123\",\n    \"coordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  }\n}",
+					"outputDataExample": "{\n  \"users\": {\n    \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\": [\n      {\n        \"id\": \"_some_socket_id_abc123\",\n        \"coordinates\": {\n          \"x\": \"780px\",\n          \"y\": \"450px\"\n        }\n      }\n    ]\n  }\n}"
+				},
+				{
+					"simStepId": "a542d335-b12f-4a5a-a4fc-51b9072056cb",
+					"diagramNodeId": "ea819186-991f-49e1-9161-73511cb492e4",
+					"simStepLabel": "Server Sends List of Existing Users",
+					"simStepDescription": "The server gets the list of all users already in the room (excluding the newly joined user) and sends it to the new user via an 'existing-users' event. For the first user, this list is empty. For subsequent users, it contains the peers already in the room.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "28",
+						"endLine": "33",
+						"relevantVariables": [
+							"usersInThisRoom",
+							"socket.emit"
+						]
+					},
+					"inputDataExample": "{\n  \"usersInThisRoom\": []\n}",
+					"outputDataExample": "{\n  \"usersInThisRoom\": []\n}"
+				},
+				{
+					"simStepId": "bb112e0d-3269-4f7b-b7eb-3cccc94856d8",
+					"diagramNodeId": "99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7",
+					"simStepLabel": "Client Receives Room Data and Establishes Peer Connections",
+					"simStepDescription": "The client receives both the 'your-welcome-package' and 'existing-users' events. It uses the welcome package to set its own state. It then iterates through the list of existing users to initiate WebRTC peer connections with each one.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "146",
+						"endLine": "170",
+						"relevantVariables": [
+							"socketRef.current.on",
+							"myWelcomePackage",
+							"setPeer",
+							"users",
+							"createMyPeer",
+							"peersRef"
+						]
+					},
+					"inputDataExample": "{\n  \"myWelcomePackage\": {\n    \"id\": \"_some_socket_id_abc123\",\n    \"coordinates\": {\n      \"x\": \"780px\",\n      \"y\": \"450px\"\n    }\n  },\n  \"existingUsers\": [\n    {\n      \"id\": \"_some_socket_id_def456\",\n      \"coordinates\": {\n        \"x\": \"123px\",\n        \"y\": \"800px\"\n      }\n    }\n  ]\n}",
+					"outputDataExample": "{\n  \"peers\": [\n    {\n      \"peerID\": \"_some_socket_id_def456\",\n      \"peer\": \"[WebRTCPeerObject]\"\n    }\n  ]\n}"
+				}
+			],
+			"description": "<ul><li>The application organizes meetings into isolated sessions called 'rooms'</li><li>When a user navigates to the root URL, a unique room ID is generated using UUID, and they are redirected to a new room</li><li>Other users can join the same meeting by navigating to the URL containing the specific room ID</li><li>The server manages room state, ensuring only participants in the same room can interact</li></ul>",
+			"simulationNodesAndEdges": {
+				"2394b4b1-b71b-403f-99d7-ac65a22e4688": {
+					"simStepIds": [
+						"f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5"
+					]
+				},
+				"352fee40-5a3c-4e1c-a52d-ed0ff51d0626": {
+					"simStepIds": [
+						"11701434-7a08-4302-8fc1-872d0756d7ba"
+					]
+				},
+				"e191f531-f18a-46ff-9799-f98642d9c782": {
+					"simStepIds": [
+						"8ca2bf60-8053-4809-8171-600aa7226d13"
+					]
+				},
+				"90d39d75-3f34-40cd-b170-d89dcf02d35a": {
+					"simStepIds": [
+						"b78f3135-3988-4728-9dac-8a2d7df45862"
+					]
+				},
+				"0f17f173-f7ae-4554-8309-760c9dc04d62": {
+					"simStepIds": [
+						"272e24a0-6a26-4583-86ce-a1670fddbac6"
+					]
+				},
+				"99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7": {
+					"simStepIds": [
+						"bb112e0d-3269-4f7b-b7eb-3cccc94856d8"
+					]
+				},
+				"f0dc4545-e33f-4a3e-8ca0-67352f617890": {
+					"simStepIds": [
+						"bd702714-062f-4e38-98c6-255df6779d72"
+					]
+				},
+				"148d5ccc-67e3-4c14-8a8a-6fb51c780720": {
+					"simStepIds": [
+						"e578ec9a-db32-42ad-8451-4fd16a834962"
+					]
+				},
+				"fed3d2f8-b972-48b5-b684-40673ed85d89": {
+					"simStepIds": [
+						"79a3935b-aefe-49e1-9b37-1ca8b2789989"
+					]
+				},
+				"20834ce6-c84e-4a67-a480-df7376fac895": {
+					"simStepIds": [
+						"4b3ef239-6d48-45a4-a0ff-c3634c85591a"
+					]
+				},
+				"ea819186-991f-49e1-9161-73511cb492e4": {
+					"simStepIds": [
+						"a542d335-b12f-4a5a-a4fc-51b9072056cb"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "roomID, join-room, uuid"
+		},
+		"Participant Avatars in a 2D Spatial Environment": {
+			"name": "Participant Avatars in a 2D Spatial Environment",
+			"simSteps": [
+				{
+					"simStepId": "27bcdb0a-eef4-47ed-97fb-0f8ef7219efd",
+					"diagramNodeId": "bdbdb355-20bc-472e-91b9-e0a2bf62f1cb",
+					"simStepLabel": "Generate Initial Coordinates",
+					"simStepDescription": "Upon entering a room, the client's browser calls the `randomCoordinates` function to generate a random (x, y) position for the user's avatar within the 2D stage.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "46",
+						"endLine": "52",
+						"relevantVariables": [
+							"randomCoordinates",
+							"stageWidth",
+							"stageHeight",
+							"x",
+							"y"
+						]
+					},
+					"inputDataExample": "null",
+					"outputDataExample": "{\"x\": \"812px\", \"y\": \"567px\"}"
+				},
+				{
+					"simStepId": "8ec5aee3-9e59-486b-9bbf-f5743c655acf",
+					"diagramNodeId": "6867a760-d29d-467d-90c6-02c2677faecc",
+					"simStepLabel": "Client -> Server: Emit 'join-room' Event",
+					"simStepDescription": "The client sends a 'join-room' event to the server via a WebSocket connection, including the room ID and the randomly generated initial coordinates.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "149",
+						"endLine": "149",
+						"relevantVariables": [
+							"socketRef.current.emit",
+							"roomID",
+							"initialCoordinates"
+						]
+					},
+					"inputDataExample": "{\"roomID\": \"virtual-conf-42\", \"initialCoordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}",
+					"outputDataExample": "{\"roomID\": \"virtual-conf-42\", \"initialCoordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}"
+				},
+				{
+					"simStepId": "3c61b93d-7b6b-40e4-9844-b10642cec363",
+					"diagramNodeId": "49394469-e8d8-4c7a-934a-3f7eaff2f2e8",
+					"simStepLabel": "Server Receives 'join-room' Event",
+					"simStepDescription": "The server's WebSocket listener receives the 'join-room' event. It extracts the payload, creates a new peer object with the client's socket ID and coordinates, and prepares a welcome package.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "14",
+						"endLine": "18",
+						"relevantVariables": [
+							"socket.on",
+							"payload",
+							"roomID",
+							"initialCoordinates",
+							"newPeer"
+						]
+					},
+					"inputDataExample": "{\"roomID\": \"virtual-conf-42\", \"initialCoordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}",
+					"outputDataExample": "{\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}"
+				},
+				{
+					"simStepId": "1b38353c-9e8f-453a-8c52-ae0bcfdbd185",
+					"diagramNodeId": "f576a341-6aa5-49e7-a6a7-6557e3a04175",
+					"simStepLabel": "Server -> Client: Emit 'your-welcome-package' Event",
+					"simStepDescription": "The server sends a 'your-welcome-package' event back to the originating client. This package contains the client's unique socket ID and confirms the coordinates they will use.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "server.js",
+						"startLine": "18",
+						"endLine": "18",
+						"relevantVariables": [
+							"socket.emit",
+							"newPeer"
+						]
+					},
+					"inputDataExample": "{\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}",
+					"outputDataExample": "{\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}"
+				},
+				{
+					"simStepId": "8557a1c4-29db-4fc4-8f87-d0f8d375c892",
+					"diagramNodeId": "bedcf977-144c-4be7-94e5-4d8fb6466ac9",
+					"simStepLabel": "Client Processes Welcome Package",
+					"simStepDescription": "The client listens for the 'your-welcome-package' event. Upon receipt, it updates its internal state (`myPeer`) with its ID, the confirmed coordinates, and its local media stream.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "150",
+						"endLine": "156",
+						"relevantVariables": [
+							"socketRef.current.on",
+							"myWelcomePackage",
+							"setPeer",
+							"initialCoordinates",
+							"myStream"
+						]
+					},
+					"inputDataExample": "{\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}}",
+					"outputDataExample": "{\"myPeer\": {\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}, \"stream\": \"[MediaStream Object]\"}}"
+				},
+				{
+					"simStepId": "44c5fbea-7a6e-42d5-819a-b73f55f37f62",
+					"diagramNodeId": "cb3747a8-2d7f-400b-aaac-e4f811798720",
+					"simStepLabel": "React Props: Pass Coordinates to Component",
+					"simStepDescription": "A state update triggers a re-render. The `myPeer` object, containing the coordinates, is passed as a prop from the main `Room` component to the `MyVideo` child component.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "279",
+						"endLine": "279",
+						"relevantVariables": [
+							"MyNode",
+							"MyVideo",
+							"myPeer"
+						]
+					},
+					"inputDataExample": "{\"peer\": {\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}, \"stream\": \"[MediaStream Object]\"}}",
+					"outputDataExample": "{\"peer\": {\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}, \"stream\": \"[MediaStream Object]\"}}"
+				},
+				{
+					"simStepId": "b3d4474a-5e9c-4eb4-ab1b-920c69158c01",
+					"diagramNodeId": "d6de0b12-765c-41fb-9e8e-a136b0f4eae6",
+					"simStepLabel": "Render User's Own Video Avatar",
+					"simStepDescription": "The `MyVideo` component receives the `peer` prop. It constructs a `StyledNode` component, passing the coordinates from the prop to `StyledNode`'s `top` and `left` props.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "94",
+						"endLine": "105",
+						"relevantVariables": [
+							"MyVideo",
+							"StyledNode",
+							"props.peer.id",
+							"props.peer.coordinates.y",
+							"props.peer.coordinates.x"
+						]
+					},
+					"inputDataExample": "{\"peer\": {\"id\": \"aBcDeFgHiJkLmNoP\", \"coordinates\": {\"x\": \"812px\", \"y\": \"567px\"}, \"stream\": \"[MediaStream Object]\"}}",
+					"outputDataExample": "{\"id\": \"aBcDeFgHiJkLmNoP\", \"top\": \"567px\", \"left\": \"812px\"}"
+				},
+				{
+					"simStepId": "1c189ad3-ef1f-4f9c-bcc0-67f6d14455a8",
+					"diagramNodeId": "801baea4-0a0e-47e4-8f94-9f7e8a14475e",
+					"simStepLabel": "React Props: Pass Coordinates to Styled Component",
+					"simStepDescription": "The `MyVideo` component passes the `x` and `y` coordinates as `left` and `top` props respectively to the `StyledNode` styled-component.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "95",
+						"endLine": "102",
+						"relevantVariables": [
+							"StyledNode",
+							"top",
+							"left"
+						]
+					},
+					"inputDataExample": "{\"top\": \"567px\", \"left\": \"812px\"}",
+					"outputDataExample": "{\"top\": \"567px\", \"left\": \"812px\"}"
+				},
+				{
+					"simStepId": "2af15707-a112-4950-9b72-6a37eb472a6c",
+					"diagramNodeId": "462e9ac4-3f28-4ad5-858a-e89a501192b5",
+					"simStepLabel": "Apply Positional Styles via CSS",
+					"simStepDescription": "The `StyledNode` component, a styled-component, interprets the `top` and `left` props and injects them into its CSS template, applying `position: absolute` and setting the `top` and `left` style properties to position the avatar on the screen.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "client/src/routes/Room.js",
+						"startLine": "34",
+						"endLine": "43",
+						"relevantVariables": [
+							"StyledNode",
+							"props.top",
+							"props.left"
+						]
+					},
+					"inputDataExample": "{\"props\": {\"top\": \"567px\", \"left\": \"812px\"}}",
+					"outputDataExample": "{\"css\": \"position: absolute; top: 567px; left: 812px;\"}"
+				}
+			],
+			"description": "<ul><li>Unlike traditional grid-based video calls, this application presents participants as movable avatars in a 2D space</li><li>Each participant's video is rendered inside a circular node</li><li>Upon joining, users are assigned a random position on the 2D stage</li><li>This spatial layout is the application's key unique selling proposition</li></ul>",
+			"simulationNodesAndEdges": {
+				"bdbdb355-20bc-472e-91b9-e0a2bf62f1cb": {
+					"simStepIds": [
+						"27bcdb0a-eef4-47ed-97fb-0f8ef7219efd"
+					]
+				},
+				"49394469-e8d8-4c7a-934a-3f7eaff2f2e8": {
+					"simStepIds": [
+						"3c61b93d-7b6b-40e4-9844-b10642cec363"
+					]
+				},
+				"bedcf977-144c-4be7-94e5-4d8fb6466ac9": {
+					"simStepIds": [
+						"8557a1c4-29db-4fc4-8f87-d0f8d375c892"
+					]
+				},
+				"d6de0b12-765c-41fb-9e8e-a136b0f4eae6": {
+					"simStepIds": [
+						"b3d4474a-5e9c-4eb4-ab1b-920c69158c01"
+					]
+				},
+				"462e9ac4-3f28-4ad5-858a-e89a501192b5": {
+					"simStepIds": [
+						"2af15707-a112-4950-9b72-6a37eb472a6c"
+					]
+				},
+				"6867a760-d29d-467d-90c6-02c2677faecc": {
+					"simStepIds": [
+						"8ec5aee3-9e59-486b-9bbf-f5743c655acf"
+					]
+				},
+				"f576a341-6aa5-49e7-a6a7-6557e3a04175": {
+					"simStepIds": [
+						"1b38353c-9e8f-453a-8c52-ae0bcfdbd185"
+					]
+				},
+				"cb3747a8-2d7f-400b-aaac-e4f811798720": {
+					"simStepIds": [
+						"44c5fbea-7a6e-42d5-819a-b73f55f37f62"
+					]
+				},
+				"801baea4-0a0e-47e4-8f94-9f7e8a14475e": {
+					"simStepIds": [
+						"1c189ad3-ef1f-4f9c-bcc0-67f6d14455a8"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "coordinates, StyledNode, randomCoordinates"
+		},
+		"Dynamic Handling of Participants Joining and Leaving": {
+			"name": "Dynamic Handling of Participants Joining and Leaving",
+			"simSteps": [],
+			"description": "<ul><li>The application seamlessly manages the lifecycle of participants in a room</li><li>When a new user joins, they receive a list of all existing users to establish connections</li><li>Concurrently, existing users are notified of the new arrival to connect with them</li><li>When a user disconnects, they are removed from the room, and a notification is broadcast to all remaining participants to terminate the connection and remove their avatar</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "user-joined, user-disconnected, existing-users"
+		},
+		"Real-time Synchronization of Participant Positions": {
+			"name": "Real-time Synchronization of Participant Positions",
+			"simSteps": [],
+			"description": "<ul><li>The application maintains a shared sense of space by synchronizing avatar positions in real-time</li><li>Although the client-side implementation for moving is commented out, the backend is fully equipped for it</li><li>A user's client would emit an 'update-coordinates' event to the server</li><li>The server then broadcasts a 'user-moved' event to all other clients in the room, ensuring everyone sees the same spatial layout</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "update-coordinates, user-moved, socket.to(roomID).broadcast"
+		},
+		"Browser-Based, Zero-Installation Meetings": {
+			"name": "Browser-Based, Zero-Installation Meetings",
+			"simSteps": [],
+			"description": "<ul><li>The entire application is a web-based Single Page Application (SPA) built with React</li><li>Users can create and join meetings directly from their web browser by clicking a link</li><li>There is no need to download or install any desktop software</li><li>The backend is a lightweight Node</li><li>js server using Express and Socket</li><li>IO, making deployment straightforward</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "React, BrowserRouter, express"
+		}
+	},
+	"cellToPath": {
+		"86c8b80f-2e05-4850-a7ae-5cc482b1b94a": "client",
+		"c31af4f6-ab55-42b7-bdf4-c3bae3240f04": "server.js",
+		"747b6460-10a1-48cb-8c3d-91eb23d4c9d8": "client/src",
+		"dfee4bfa-5c58-4a56-8c88-cdcf80776dea": "client/src/routes",
+		"63df3399-6dec-4a79-9180-1feeae987272": "client/src/routes/Room.js",
+		"a941afe4-5106-45a9-8323-0e45e45a3a13": "client/src/routes/Room.js-simstep-9ee9c928-c7b9-4de6-9189-696ca7099fbd",
+		"7745f121-ae62-449d-bf29-d4dd124a4121": "server.js-simstep-4a7b13f0-6ebf-41b8-ae9a-b4753fa319af",
+		"870e7490-0774-4af4-aa78-7b07be3c9641": "client/src/routes/Room.js-simstep-6e74a24e-6ffc-4a2d-8687-881bd41fdbf0",
+		"5a164063-9a04-4b6c-a167-c3c7fee08dbe": "server.js-simstep-18f0b8d1-9c06-4fbd-98c9-28c8a31702df",
+		"16dc9fc6-1650-4b51-aec4-ef48eb5cc01d": "client/src/routes/Room.js-simstep-d29d070f-f816-4fbf-97eb-901ba2dc7708",
+		"061a7300-c308-4bc9-b441-9a9f0cf087f7": "server.js-simstep-21c89ef8-13dd-461f-bfed-3fb961c64e5c",
+		"6fc92595-4114-41d1-9ca8-46f1c4f36fb8": "client/src/routes/Room.js-simstep-2546a6cb-ecd4-4a63-9439-4b1c8f6a586d",
+		"9f1f191e-5112-4fef-aa14-eb7666917009": "generated-edge-simstep-26fee657-434e-4ece-aeff-95451b7aab8f-9f1f191e-5112-4fef-aa14-eb7666917009",
+		"16e5b6d0-d1a2-450b-9138-4d5d1767f1db": "generated-edge-simstep-531f0f27-27a5-483a-ab96-8e5a49ff13ff-16e5b6d0-d1a2-450b-9138-4d5d1767f1db",
+		"44136345-e072-4ba6-9c4d-fe2007f7887c": "generated-edge-simstep-b02419c7-b956-4837-a6cd-eea8ae033a9e-44136345-e072-4ba6-9c4d-fe2007f7887c",
+		"52f3fe2d-0e97-42ad-8d48-d687cdddb98f": "generated-edge-simstep-27b72182-7637-4b67-b0a8-191ad4459c6d-52f3fe2d-0e97-42ad-8d48-d687cdddb98f",
+		"96504682-c233-4542-8d67-5414f7028833": "generated-edge-simstep-47ca3cc9-e7c4-49df-9b29-5b540d017541-96504682-c233-4542-8d67-5414f7028833",
+		"b927dbe5-5ce3-4fe3-85c3-378d4e00d73e": "generated-edge-simstep-4f8bac67-9d49-44a8-9f41-02c39cdfe31d-b927dbe5-5ce3-4fe3-85c3-378d4e00d73e",
+		"a42a4950-7b26-439a-ae31-19ca3cde26f1": "client/src/App.js",
+		"fe38e07b-ff4e-4f9b-8037-5d9d9025390f": "client/src/routes/CreateRoom.js",
+		"2394b4b1-b71b-403f-99d7-ac65a22e4688": "client/src/App.js-simstep-f3c20d65-25d1-4dfb-aadc-ca60bdbdc0f5",
+		"352fee40-5a3c-4e1c-a52d-ed0ff51d0626": "client/src/routes/CreateRoom.js-simstep-11701434-7a08-4302-8fc1-872d0756d7ba",
+		"e191f531-f18a-46ff-9799-f98642d9c782": "client/src/App.js-simstep-8ca2bf60-8053-4809-8171-600aa7226d13",
+		"90d39d75-3f34-40cd-b170-d89dcf02d35a": "server.js-simstep-b78f3135-3988-4728-9dac-8a2d7df45862",
+		"0f17f173-f7ae-4554-8309-760c9dc04d62": "server.js-simstep-272e24a0-6a26-4583-86ce-a1670fddbac6",
+		"99b6ea7c-1d7e-4c02-b04c-1fbc71b416a7": "client/src/routes/Room.js-simstep-bb112e0d-3269-4f7b-b7eb-3cccc94856d8",
+		"f0dc4545-e33f-4a3e-8ca0-67352f617890": "generated-edge-simstep-bd702714-062f-4e38-98c6-255df6779d72-f0dc4545-e33f-4a3e-8ca0-67352f617890",
+		"148d5ccc-67e3-4c14-8a8a-6fb51c780720": "generated-edge-simstep-e578ec9a-db32-42ad-8451-4fd16a834962-148d5ccc-67e3-4c14-8a8a-6fb51c780720",
+		"fed3d2f8-b972-48b5-b684-40673ed85d89": "generated-edge-simstep-79a3935b-aefe-49e1-9b37-1ca8b2789989-fed3d2f8-b972-48b5-b684-40673ed85d89",
+		"20834ce6-c84e-4a67-a480-df7376fac895": "generated-edge-simstep-4b3ef239-6d48-45a4-a0ff-c3634c85591a-20834ce6-c84e-4a67-a480-df7376fac895",
+		"ea819186-991f-49e1-9161-73511cb492e4": "generated-edge-simstep-a542d335-b12f-4a5a-a4fc-51b9072056cb-ea819186-991f-49e1-9161-73511cb492e4",
+		"bdbdb355-20bc-472e-91b9-e0a2bf62f1cb": "client/src/routes/Room.js-simstep-27bcdb0a-eef4-47ed-97fb-0f8ef7219efd",
+		"49394469-e8d8-4c7a-934a-3f7eaff2f2e8": "server.js-simstep-3c61b93d-7b6b-40e4-9844-b10642cec363",
+		"bedcf977-144c-4be7-94e5-4d8fb6466ac9": "client/src/routes/Room.js-simstep-8557a1c4-29db-4fc4-8f87-d0f8d375c892",
+		"d6de0b12-765c-41fb-9e8e-a136b0f4eae6": "client/src/routes/Room.js-simstep-b3d4474a-5e9c-4eb4-ab1b-920c69158c01",
+		"462e9ac4-3f28-4ad5-858a-e89a501192b5": "client/src/routes/Room.js-simstep-2af15707-a112-4950-9b72-6a37eb472a6c",
+		"6867a760-d29d-467d-90c6-02c2677faecc": "generated-edge-simstep-8ec5aee3-9e59-486b-9bbf-f5743c655acf-6867a760-d29d-467d-90c6-02c2677faecc",
+		"f576a341-6aa5-49e7-a6a7-6557e3a04175": "generated-edge-simstep-1b38353c-9e8f-453a-8c52-ae0bcfdbd185-f576a341-6aa5-49e7-a6a7-6557e3a04175",
+		"cb3747a8-2d7f-400b-aaac-e4f811798720": "generated-edge-simstep-44c5fbea-7a6e-42d5-819a-b73f55f37f62-cb3747a8-2d7f-400b-aaac-e4f811798720",
+		"801baea4-0a0e-47e4-8f94-9f7e8a14475e": "generated-edge-simstep-1c189ad3-ef1f-4f9c-bcc0-67f6d14455a8-801baea4-0a0e-47e4-8f94-9f7e8a14475e"
+	}
+}
