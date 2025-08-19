@@ -76,3 +76,10 @@ To help you get your feet wet and get you familiar with our contribution process
 ### License
 
 React is [MIT licensed](./LICENSE).
+
+
+### How does `2DMeeting` work?
+
+Check out this interactive walkthrough of the `2DMeeting` codebase on CodeCanvas [here](https://www.code-canvas.com/?session=unauthenticatedGithub&repo=2DMeeting&owner=Abdulnaser97&branch=main).
+
+<img width="1916" alt="CodeCanvas Screenshot" src="https://codecanvas-media-public.s3.amazonaws.com/images/codecanvas-readme-screenshot.png" />
