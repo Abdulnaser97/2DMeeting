@@ -8,6 +8,13 @@ React is a JavaScript library for building user interfaces.
 
 [Learn how to use React in your project](https://react.dev/learn).
 
+### How does `2DMeeting` work?
+
+Check out this interactive walkthrough of the `2DMeeting` codebase on CodeCanvas [here](https://www.code-canvas.com/?session=unauthenticatedGithub&repo=2DMeeting&owner=Abdulnaser97&branch=main).
+
+<img width="1916" alt="CodeCanvas Screenshot" src="https://codecanvas-media-public.s3.amazonaws.com/images/codecanvas-readme-screenshot.png" />
+
+
 ## Installation
 
 React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:
